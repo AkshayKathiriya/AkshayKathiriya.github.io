@@ -15203,6 +15203,31 @@ div.wpforms-container.wpforms-container-full .wpforms-form label.wpforms-error {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
+.slogan-container {
+    padding: 20px;
+    background-color: #fff;
+}
+.slogan-wrap {
+  background-image: url("/wp-content/uploads/2021/08/Layer-559.webp"); 
+  background-clip: text; 
+  padding-right: 8px;
+  -webkit-background-clip: text; 
+  float: right;
+  color: transparent; 
+  display: inline-block; 
+  font-size: 50px;
+  line-height: 50px;
+  font-family:"Herbarium Alt", Sans-serif;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: right;
+  @media only screen and (max-width: 767px) {
+    font-size: 40px;
+    line-height: 1.2em;
+  }
+}
+
+
 .elementor-widget-agrarium_vertical_text .vertical-text {
   font-weight: 700;
   font-size: 16px;
