@@ -16753,7 +16753,7 @@ body.admin-bar .header.sticky-header-on.sticky-ready .sticky-wrapper {
 
 .menu-close {
   position: relative; }
-  .menu-close .menu-close-icon {
+  .menu-close {
     display: block;
     width: 16px;
     height: 23px;
@@ -16762,8 +16762,6 @@ body.admin-bar .header.sticky-header-on.sticky-ready .sticky-wrapper {
     text-align: center;
     -webkit-transition: color 0.3s;
     transition: color 0.3s; }
-    .menu-close .menu-close-icon:before {
-      content: '\e803'; }
 
 /* Mobile Menu */
 .mobile-header-menu-container {
